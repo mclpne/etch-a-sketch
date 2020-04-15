@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #f79c85 */
+/* #f06e82 */
+
+body {
+    background-color: grey;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-block {
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+/* Shades of black */
+
+.black {
+    background-color: #000000;
+}
